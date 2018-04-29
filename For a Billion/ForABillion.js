@@ -1,6 +1,6 @@
-var start = 1;   // starting out the first day
-var total = 0;  // total amount of money earned
-var days = 30; // total amount of days 
+var start = 1;   // starting out the first day (Counting days)
+var total = 0;  // total amount of money earned so far
+var days = 30; // total of days 
 
 //seeting var x to loop to 30 days 
 for (var x = 1; x <= days; x ++){ 
