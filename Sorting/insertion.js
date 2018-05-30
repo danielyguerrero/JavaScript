@@ -1,6 +1,6 @@
 function insertionSort (items) {
   for (var i = 0; i < items.length; i++) {  //for loop to iterate through the arr
-    let value = items[i]
+    let value = items[i]  
     // store the current item value so it can be placed right
     for (var j = i - 1; j > -1 && items[j] > value; j--) {
       // loop through the items in the sorted array (the items from the current to the beginning)
